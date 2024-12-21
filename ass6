@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD Tour Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="section">
+        <h1>BD Tour Guide</h1>
+        <nav>
+            <a href="#search">Search Spots</a> |
+            <a href="#book">Book a Package</a> |
+            <a href="#cancel">Cancel Booking</a> |
+            <a href="#payment">Make Payment</a> |
+            <a href="#manage">Manage Packages</a>
+        </nav>
+    </header>
+
+    <section id="search" class="section">
+        <h2>Search for Tourist Spots</h2>
+        <form>
+            <input type="text" placeholder="Enter location or spot name" required>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="book" class="section">
+        <h2>Book a Tour Package</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <select required>
+                <option value="">Select a Package</option>
+                <option value="package1">Cox's Bazar - 3 Days</option>
+                <option value="package2">Sundarbans Adventure</option>
+            </select>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="cancel" class="section">
+        <h2>Cancel a Booking</h2>
+        <form>
+            <input type="text" placeholder="Booking ID" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Cancel Booking</button>
+        </form>
+    </section>
+
+    <section id="payment" class="section">
+        <h2>Make a Payment</h2>
+        <form>
+            <input type="text" placeholder="Booking ID" required>
+            <input type="number" placeholder="Amount" required>
+            <button type="submit">Pay Now</button>
+        </form>
+    </section>
+
+    <section id="manage" class="section">
+        <h2>Manage Tour Packages</h2>
+        <form>
+            <input type="text" placeholder="Package Name" required>
+            <textarea placeholder="Package Details" required></textarea>
+            <input type="number" placeholder="Price" required>
+            <button type="submit">Add Package</button>
+        </form>
+    </section>
+
+    <footer class="section">
+        <p>&copy; 2024 BD Tour Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
